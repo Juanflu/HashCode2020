@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="input\a_example.txt" />
+    <None Remove="input\b_read_on.txt" />
+    <None Remove="input\c_incunabula.txt" />
+    <None Remove="input\d_tough_choices.txt" />
+    <None Remove="input\e_so_many_books.txt" />
+    <None Remove="input\f_libraries_of_the_world.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="input\a_example.txt" />
+    <Content Include="input\b_read_on.txt" />
+    <Content Include="input\c_incunabula.txt" />
+    <Content Include="input\d_tough_choices.txt" />
+    <Content Include="input\e_so_many_books.txt" />
+    <Content Include="input\f_libraries_of_the_world.txt" />
+  </ItemGroup>
+
+</Project>
